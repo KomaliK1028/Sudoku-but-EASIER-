@@ -17,12 +17,12 @@ import java.awt.Color;
 public class SudokuStage extends Stage
 {
 	//INSTANCE VARIABLES
-	private TicTacToe game;
+	private Sudoku game;
 	private Text currentPlayer, winner;
 	private TicTacToePiece piece;
 	private PieceActor[][] some;
 	//CONSTRUCTOR
-    public SudokuStage(TicTacToeClient client, TicTacToe game, TicTacToePiece piece)
+    public SudokuStage(TicTacToeClient client, Sudoku game, TicTacToePiece piece)
     {
     	//TODO: store parameters in instance variables
     	
