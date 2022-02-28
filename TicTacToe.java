@@ -1,8 +1,8 @@
-public class TicTacToe implements ITicTacToe
+public class Sudoku implements ISudoku
 {
     //INSTANCE VARIABLES
-    TicTacToePiece player;
-    TicTacToePiece[][] board;
+    SudokuPiece player;
+    SudokuPiece[][] board;
     //CONSTRUCTORS
     public TicTacToe() 
     {
